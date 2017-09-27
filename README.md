@@ -1,1 +1,5 @@
-# ethereum_blockchain
+# Predicting Ethereum Gas Prices
+
+## Motivation 
+
+## Summary
