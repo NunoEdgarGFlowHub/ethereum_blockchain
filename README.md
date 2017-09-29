@@ -57,4 +57,12 @@ To this aim, the question arises: how many blocks in the past must be considered
 
 ![alt text](notebooks/mse_prev_blocks.png "Error with respect to the number of previous blocks")
 
+## Modeling
+
+## Random forest regressor
+
+A random forest regressor was used to predict gas price. In evaluating the performance of the model, an R2 value of 0.2 was obtained. 
+
+![alt text](notebooks/feat_import_50.png "feature importances from random forest")
+
 ## Summary
