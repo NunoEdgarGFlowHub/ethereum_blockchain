@@ -30,9 +30,13 @@ The data was mined from the etherchain API (https://www.etherchain.org/).
 
 Certain information is contained in every transaction. A total of 1,494,279 transactions were collected. The transactions spanned over a time period of 7 days, between 9-19-2017 and 9-24-2017.   
 
+![alt text](images/transactions "transaction gethered from etherchain API")
+
 ### Block level 
 
 Also information about the nature of a block. This can be thought of as the "environment" or state in which a transaction exists at a given moment of time. A total of 14,583 blocks were collected.
+
+![alt text](images/blocks "block gethered from etherchain API")
 
 ### Filtering
 
