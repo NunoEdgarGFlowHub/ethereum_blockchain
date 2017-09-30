@@ -23,7 +23,9 @@ We would like to predict the gas price for a given transaction to successfully c
 
 ## Data curation
 
-The data was mined from the etherchain API (https://www.etherchain.org/).
+The data was mined from the etherchain API (https://www.etherchain.org/documentation/api/).
+
+There are various blockchain explorers (e.g., etherchain, etherscan) and can be reviewed here: http://cryptomining-blog.com/tag/etherscan/
 
 ### Transaction level
 
@@ -54,7 +56,7 @@ To this aim, the question arises: how many blocks in the past must be considered
 - The mean-squared error (MSE) was charted for each window and plotted
 - The minimized MSE was found to occur for a window of 50 blocks
 
-![alt text](notebooks/mse_prev_blocks.png "Error with respect to the number of previous blocks")
+![alt text](images/mse_prev_blocks.png "Error with respect to the number of previous blocks")
 
 ## Modeling
 
@@ -62,6 +64,6 @@ To this aim, the question arises: how many blocks in the past must be considered
 
 A random forest regressor was used to predict gas price. In evaluating the performance of the model, an R2 value of 0.2 was obtained. 
 
-![alt text](notebooks/feat_import_50.png "feature importances from random forest")
+![alt text](images/feat_import_50.png "feature importances from random forest")
 
 ## Summary
