@@ -15,6 +15,8 @@ The outcome of a transaction depends on gas:
 - A successful transaction will complete, the miner will get a reward, and the remaining gas is returned to the sender.
 - A transaction runs out of gas before it completes, so it fails. The consumed gas is not refunded to the sender. 
 
+Total Transaction Price  = Total Gas Used x Gas Price
+
 ### Use case
 
 We would like to predict the gas price for a given transaction to successfully complete. 
