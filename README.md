@@ -20,8 +20,8 @@ Total Transaction Price  = Total Gas Used x Gas Price
 ### Use case
 
 We would like to predict the gas price for a given transaction to successfully complete. 
-- Too high: the transaction will be stuck in the network longer and will take longer to complete. 
-- Too low: the transaction will run out of gas and will fail to complete. 
+- Too high: the transaction will be processed by miners shortly after being broadcast, but the sender will be spending more than necessary in fees.
+- Too low: the transaction will be stuck in the network longer and will take longer to be included in a block.
 
 ## Data curation
 
