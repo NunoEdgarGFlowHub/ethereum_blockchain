@@ -9,13 +9,10 @@ Blockchain technology has been embraced in recent years as a common method of de
 ### What is gas?
 
 Gas is essentially a measure of the computational effort required to complete a transaction. Each ethereum transaction specifies a "gas limit" and "gas price". 
-- Gas limit: the total amount of gas that is alloted for a given transaction. If the limit is reached, the transaction will stop. This prevents infinite loops.
-- Gas price: The price per unit gas. Miners typically approve transactions with higher gas prices.
-The outcome of a transaction depends on gas:
-- A successful transaction will complete, the miner will get a reward, and the remaining gas is returned to the sender.
-- A transaction runs out of gas before it completes, so it fails. The consumed gas is not refunded to the sender. 
+- Gas limit: the total amount of gas that is alloted for a given transaction. If the limit is reached, the transaction will fail. The consumed gas is not refunded to the sender. This prevents infinite loops. If enough gas is provided, the transaction will complete, the miner will get a reward, and the remaining gas will be returned to the sender.
+- Gas price: The price per unit gas. Miners typically prioritize transactions with higher gas prices.
 
-Total Transaction Price  = Total Gas Used x Gas Price
+Total Transaction Fee (miner reward for that transaction) = Total Gas Used x Gas Price
 
 ### Use case
 
